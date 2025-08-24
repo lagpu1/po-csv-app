@@ -1,4 +1,4 @@
-# po-csv-app
+# PO to CSV App
 An executable version of [po-csv](https://github.com/marek-saji/po-csv/) by marek-saji, where you can convert PO files to CSV and viceversa with a simple interface.
 
 This has been developed as a tool for an Unreal project where localization is heavy and requires a simple way to translate the game for the rest of the team to work with. As Excels are the prefered way to work, but the default files for localization are .po files, it was necessary a tool to convert them, which marek-saji's scripts were what we were looking for. However, having to install the required libraries through CMD and Node.js wasn't the most friendly way to being used by all the team. Hence the creation of this project, using Electron to create the interface and a slight modification of the original converter files to work with that new interface.
