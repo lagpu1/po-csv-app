@@ -1,0 +1,23 @@
+{
+  "name": "POCSV",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Gabriel Laguna",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@electron/packager": "^18.4.2",
+    "electron": "^37.3.1"
+  },
+  "dependencies": {
+    "@fast-csv/format": "^5.0.5",
+    "@fast-csv/parse": "^5.0.5",
+    "array.prototype.fill": "^1.0.2",
+    "pofile": "^1.1.4"
+  }
+}
